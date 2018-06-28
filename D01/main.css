@@ -1,0 +1,166 @@
+body {
+    background: linear-gradient(black, rgba(72, 9, 124, 0.897));
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#welcomeHeading {
+    font-size: 50px;
+    color: whitesmoke;
+    vertical-align: top;
+    margin: auto; 
+    width: 99%;
+    margin: auto;
+    text-align: center;
+    border-bottom: solid rgba(167, 151, 180, 0.568) 3px;
+}
+
+#intro {
+    display: inline-block;
+    width: 65%;
+    font-family: "Lucida Console", Monaco, monospace;
+    text-align: left;
+    margin: 25px 10px 5px 15px;
+    vertical-align: top;
+}
+
+#mainThumb {
+    margin-left: 5%; 
+    margin-right: 0%; 
+    width: 20%
+}
+
+h1.pageHeading {
+    text-align: center; 
+    color:cyan;
+    text-transform: uppercase;
+}
+
+.container01 {
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+}
+
+div.container01{
+    display: inline-block;
+    /* margin-right: 3%; */
+}
+
+.container02 {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+div.container02{
+    display: inline-block;
+    margin-right: 3%;
+}
+
+div > p {
+    font-size: 16px;
+    text-align:center;
+}
+
+.specialCardImage {
+    margin-left: 40%; 
+    margin-right: 0%; 
+    width: 8%
+}
+
+.specialCardMultipliers{
+    display: inline-block;
+    width: 30%;
+    font-family: "Lucida Console", Monaco, monospace;
+    margin: auto;
+    text-align: left;
+    margin: 2.5% 2% 2% 2.5%;
+    vertical-align: top;
+}
+
+.showInfo {
+    text-align: center;
+    font-size: 16px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.highlight {
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+#volatilityHeading {
+    text-align: center;
+    width: 40%;
+    font-size: 28px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: rgba(201, 144, 235, 0.911);
+    border-width: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+}
+
+.thunder {
+    height: 0.75em;
+    margin: 0%;
+}
+
+.pageBreak {
+    width: 86%; 
+    height: 1px;
+}
+
+.paylines {
+    margin: 10px;
+}
+
+.buttons {
+    height: 1.3em;
+    width: auto;
+    margin: 0% 4px 0% 4px;
+}
+
+#autoplay {
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgba(221, 207, 230, 0.911);
+    border-width: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+}
+
+#endStatement {
+    font-size: 35px;
+    text-transform:capitalize;
+    width: 700px;
+    margin: 20px auto 0px auto;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: bolder;
+    color: rgba(97, 233, 43, 0.678);
+    border-radius: 25px;
+    border-style: solid;
+    border-color: rgba(201, 144, 235, 0.911);
+    border-width: 3px;
+    
+}
+#playButton {
+    height: 1em;
+    width: 2em;
+    text-align: center;
+}
+
+#copywrite {
+    width: 30%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    color: wheat;
+    font-size: 20px;
+}
+
+a, a:hover, a:active, a:visited { 
+    color: white; 
+}
