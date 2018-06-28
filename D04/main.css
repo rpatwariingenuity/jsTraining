@@ -15,10 +15,18 @@
     text-align: center;
     margin: auto;
     border-radius: 25px;
-}
+    }
 
 #buttonDiv {
     margin: 10px auto 0px auto;
     text-align: center;
     width:  60%;
+}
+
+#progressText {
+    font-size: 1em;
+    color: darkblue;
+    width: 35px;
+    display: inline-block;
+    text-align: center;
 }
