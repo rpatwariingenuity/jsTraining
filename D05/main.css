@@ -1,11 +1,16 @@
 #container {
-    background-color: aqua;
+    /* background-color: aqua; */
+    margin: 0px auto;
+    width: 80%;
+    /* border-style: double;
+    border-radius: 25px; */
 }
 
-#block {
+#box {
     background-color: blue;
     width: 20px;
     height: 20px;
     border-radius: 5px;
-    margin-left: 10px;
+    margin: 50px 0px 0px 0px;
+    position: absolute;
 }
