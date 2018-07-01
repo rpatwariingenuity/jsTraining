@@ -8,9 +8,11 @@
 
 #box {
     background-color: blue;
-    width: 20px;
-    height: 20px;
     border-radius: 5px;
-    margin: 50px 0px 0px 0px;
     position: absolute;
 }
+
+#myCanvas {
+    border: 1px solid #d3d3d3;
+}
+
