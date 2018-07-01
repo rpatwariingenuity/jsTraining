@@ -13,6 +13,5 @@
 }
 
 #myCanvas {
-    border: 1px solid #d3d3d3;
+    background: radial-gradient(#1ee438, rgb(15, 153, 130))
 }
-
