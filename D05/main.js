@@ -30,7 +30,7 @@ let ctx = canvas.getContext("2d");
 ctx.canvas.height = HEIGHT * 2;
 ctx.canvas.width = WIDTH - BOX_W;
 ctx.strokeStyle = "blue";
-ctx.moveTo(0, HEIGHT);
+ctx.moveTo(0, HEIGHT);                  // Modify as moveTo(0, 0) for cos()
 
 
 // declare global variables
@@ -39,12 +39,25 @@ let y = 0;
 let myReq;
 
 
+// Declare all necessary functions
+function getSin(xx) {
+    return HEIGHT - HEIGHT * Math.sin(xx * FREQUENCY);  // Height works as Amplitude
+}
+
+function getCos(xx) {
+    return HEIGHT - HEIGHT * Math.cos(xx * FREQUENCY);
+}
+
+function getTan(xx) {
+    return HEIGHT - HEIGHT * Math.tan(xx * FREQUENCY);
+}
+
 
 // function to move the block element
 function moveDiv(timestamp) {
     x += STEP;
     box.style.marginLeft = INIT_X + x + "px";
-    y = HEIGHT - HEIGHT * Math.sin(x * FREQUENCY);
+    y = getTan(x);
     box.style.marginTop = INIT_Y + y + "px";
     ctx.lineTo(x, y);
     ctx.stroke();
