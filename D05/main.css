@@ -15,3 +15,8 @@
 #myCanvas {
     background: radial-gradient(#1ee438, rgb(15, 153, 130))
 }
+
+#buttonDiv {
+    margin: 10px auto 0px auto;
+    width: 50%;
+}
